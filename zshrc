@@ -57,4 +57,9 @@ source /usr/share/zsh/site-functions/powerlevel10k/powerlevel10k.zsh-theme
 # This should be at the end of the zsh config
 source /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
 eval "$(zoxide init zsh)"
+
+# Alias
 alias cd='z'
+alias ll='ls -l'
+alias la='ls -la'
+alias lA='ls -lA'
