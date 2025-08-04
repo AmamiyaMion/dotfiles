@@ -26,3 +26,8 @@ sudo = true
 file = "/etc/portage/repos.conf/eselect-repo.conf"
 store = "portage_eselect_repo.conf"
 sudo = true
+
+[portage_world_file]
+file = "/var/lib/portage/world"
+store = "portage_world_file"
+sudo = true
