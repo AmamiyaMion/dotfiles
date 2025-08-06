@@ -21,13 +21,13 @@ app-laptop/laptop-mode-tools
 app-misc/1password-cli
 app-misc/cmatrix
 app-misc/fastfetch
+app-misc/figlet
 app-misc/github-desktop-bin
 app-misc/hyfetch
 app-misc/notion
 app-misc/pipes-rs
 app-misc/sl
 app-portage/cfg-update
-app-portage/command-not-found
 app-portage/eix
 app-portage/gentoolkit
 app-portage/pfl
@@ -53,6 +53,7 @@ dev-util/android-tools
 dev-util/gnome-builder
 dev-util/meld
 dev-vcs/git
+dev-vcs/repo
 games-action/prismlauncher
 games-misc/asciiquarium
 games-misc/cbonsai
