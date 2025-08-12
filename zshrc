@@ -6,15 +6,22 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-# source /etc/bash/bashrc.d/command-not-found.sh
+
+# compinit & Gentoo promptinit
 autoload -U compinit promptinit
 compinit
 promptinit; prompt gentoo
 zstyle ':completion::complete:*' use-cache 1
+
+# History file
 HISTFILE=~/.zsh_history
 SAVEHIST=10000
 HISTSIZE=1000
+
+# bind: Delete key -> Delete
 bindkey "^[[3~" delete-char
+
+# p10k
 source /usr/share/zsh/site-functions/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
