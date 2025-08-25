@@ -71,7 +71,7 @@ dev-qt/qt-docs
 dev-util/android-tools
 dev-util/debootstrap
 dev-util/flatpak-builder
-dev-util/gnome-builder
+dev-util/github-cli
 dev-util/meld
 dev-util/pkgdev
 dev-vcs/git
@@ -83,7 +83,10 @@ games-misc/cowsay
 games-misc/fortune-mod
 games-misc/lolcat
 games-util/game-device-udev-rules
+gnome-base/gdm::gentoo
 gnome-base/gnome
+gnome-base/gnome-keyring::gentoo
+gnome-base/gnome-session::gentoo
 gnome-extra/gnome-browser-connector
 gnome-extra/gnome-clocks
 gnome-extra/gnome-commander
@@ -118,6 +121,7 @@ net-libs/libotr
 net-libs/nodejs
 net-misc/aria2
 net-misc/axel
+net-misc/iperf
 net-misc/networkmanager
 net-misc/rclone
 net-misc/yt-dlp
@@ -130,6 +134,7 @@ sys-apps/flatpak
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/ripgrep
+sys-apps/systemd-utils
 sys-apps/usbutils
 sys-auth/howdy
 sys-block/io-scheduler-udev-rules
@@ -148,7 +153,6 @@ sys-power/acpid
 sys-power/power-profiles-daemon
 sys-power/powertop
 sys-power/switcheroo-control
-sys-power/tlp
 sys-process/btop
 sys-process/cronie
 sys-process/htop

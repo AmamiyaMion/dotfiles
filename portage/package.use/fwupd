@@ -1,1 +1,1 @@
-sys-apps/fwupd amdgpu fastboot flashrom logitech nvme synaptics uefi gnutls
+sys-apps/fwupd amdgpu fastboot flashrom logitech nvme synaptics uefi gnutls -seccomp

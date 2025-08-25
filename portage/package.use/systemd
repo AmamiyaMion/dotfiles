@@ -1,4 +1,5 @@
 sys-apps/systemd boot ukify
+sys-apps/systemd-utils boot ukify kernel-install secureboot sysusers
 # required by gnome-base/gnome-control-center-48.3::Miezhiko
 # required by gnome-base/gnome-core-apps-45.2::gentoo
 # required by gnome-base/gnome-45.2::gentoo
