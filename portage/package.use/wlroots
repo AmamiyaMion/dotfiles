@@ -1,0 +1,29 @@
+gui-libs/wlroots x11-backend xcb-errors liftoff
+# required by gui-apps/foot-1.23.1::gentoo[grapheme-clustering]
+# required by foot (argument)
+>=dev-libs/libutf8proc-2.10.0 -cjk
+# required by media-gfx/simple-scan-46.0::gentoo[colord]
+# required by simple-scan (argument)
+>=x11-misc/colord-1.4.8 vala
+# required by dev-util/flatpak-builder-1.4.4::gentoo
+# required by flatpak-builder (argument)
+>=dev-libs/appstream-1.0.4-r1 compose
+# required by sys-auth/howdy-3.0.0::kcning[qt6]
+# required by howdy (argument)
+>=media-libs/opencv-4.11.0 python
+# required by sys-auth/howdy-3.0.0::kcning
+# required by howdy (argument)
+>=sci-libs/dlib-19.24.8 python
+# required by sys-auth/howdy-3.0.0::kcning[gtk3]
+# required by howdy (argument)
+>=media-libs/opencv-4.11.0 gtk3
+# required by virtual/libcrypt-2-r1::gentoo
+# required by sys-apps/systemd-257.8-r1::gentoo
+# required by sys-power/tlp-1.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libxcrypt-4.4.38 static-libs
+# required by dev-qt/qt-creator-17.0.0::gentoo[designer]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qttools-6.9.1 designer

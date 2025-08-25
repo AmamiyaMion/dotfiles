@@ -70,3 +70,7 @@ alias cd='z'
 alias ll='ls -l'
 alias la='ls -la'
 alias lA='ls -lA'
+
+# for `howdy`: disable opencv log
+export OPENCV_LOG_LEVEL=0
+export OPENCV_VIDEOIO_PRIORITY_INTEL_MFX=0

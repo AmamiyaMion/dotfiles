@@ -1,0 +1,46 @@
+# created by eselect-repo
+
+[gentoo-zh]
+location = /var/db/repos/gentoo-zh
+sync-type = git
+sync-uri = https://mirrors.nju.edu.cn/git/gentoo-zh.git
+auto-sync = yes
+
+[guru]
+location = /var/db/repos/guru
+sync-type = git
+sync-uri = https://anongit.gentoo.org/git/repo/proj/guru.git
+auto-sync = yes
+
+[Miezhiko]
+location = /var/db/repos/Miezhiko
+sync-type = git
+sync-uri = https://gh-proxy.com/github.com/Miezhiko/Overlay.git
+auto-sync = yes
+
+[CachyOS-kernels]
+location = /var/db/repos/CachyOS-kernels
+sync-type = git
+sync-uri = https://gh-proxy.com/github.com/Szowisz/CachyOS-kernels.git
+auto-sync = yes
+
+[panjk0518]
+location = /var/db/repos/panjk0518-Overlay
+
+[jaredallard-overlay]
+location = /var/db/repos/jaredallard-overlay
+sync-type = git
+sync-uri = https://gh-proxy.com/github.com/jaredallard/overlay.git
+auto-sync = yes
+
+[steam-overlay]
+location = /var/db/repos/steam-overlay
+sync-type = git
+sync-uri = https://gh-proxy.com/github.com/anyc/steam-overlay.git
+auto-sync = yes
+
+[djs_overlay]
+location = /var/db/repos/djs_overlay
+sync-type = git
+sync-uri = https://gh-proxy.com/github.com/DJManas/dj.git
+auto-sync = yes
