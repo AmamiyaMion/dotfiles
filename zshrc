@@ -1,4 +1,4 @@
-# panjk0518's .zshrc
+# mion's .zshrc
 # Requirements: gentoo prompt, powerlevel10k, zsh-auto-suggestions, zsh-syntax-highlighting, zoxide
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -74,3 +74,10 @@ alias lA='ls -lA'
 # for `howdy`: disable opencv log
 export OPENCV_LOG_LEVEL=0
 export OPENCV_VIDEOIO_PRIORITY_INTEL_MFX=0
+
+# ENVIRONMENT VARIABLES
+export GUIX_LOCPATH="/home/mion/.guix-profile/lib/locale"
+export GUIX_PROFILE="/home/mion/.config/guix/current"
+export XMODIFIERS=@im=fcitx
+export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_QPA_PLATFORM=xcb

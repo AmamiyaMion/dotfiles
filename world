@@ -145,10 +145,11 @@ sys-firmware/sof-firmware
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/squashfs-tools
-sys-kernel/gentoo-sources
+sys-kernel/cachyos-sources
 sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-kernel/modprobed-db
+sys-kernel/scx
 sys-power/acpid
 sys-power/power-profiles-daemon
 sys-power/powertop
